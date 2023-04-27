@@ -101,7 +101,6 @@ var backimg =[
     "url(https://images.alphacoders.com/111/1115962.jpg)",
     "url(https://images8.alphacoders.com/119/1193590.jpg)",
     "url(https://images8.alphacoders.com/963/963497.png)",
-    "url(https://images.alphacoders.com/973/973787.jpg)",
     "url(https://images4.alphacoders.com/247/247884.jpg)",
     "url(https://images5.alphacoders.com/745/745356.png)",
     "url(https://s2.loli.net/2022/01/06/rCgsPjLNcJlv3Mt.jpg)",
