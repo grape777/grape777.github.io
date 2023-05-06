@@ -491,7 +491,6 @@ var backimg =[
     "url(https://images5.alphacoders.com/739/739030.png)",
     "url(https://images7.alphacoders.com/728/728561.png)",
     "url(https://images7.alphacoders.com/726/726846.png)",
-    "url(https://images3.alphacoders.com/723/723119.jpg)",
     "url(https://images4.alphacoders.com/717/717172.png)",
     "url(https://images8.alphacoders.com/581/581018.jpg)",
     "url(https://images.alphacoders.com/581/581027.jpg)",
