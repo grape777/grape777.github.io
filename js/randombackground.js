@@ -179,7 +179,6 @@ var backimg =[
     "url(https://images8.alphacoders.com/910/910403.jpg)",
     "url(https://images8.alphacoders.com/858/858962.jpg)",
     "url(https://images6.alphacoders.com/859/859845.png)",
-    "url(https://images3.alphacoders.com/868/868046.png)",
     "url(https://images5.alphacoders.com/104/1040565.jpg)",
     "url(https://images4.alphacoders.com/103/1035422.png)",
     "url(https://images8.alphacoders.com/925/925326.png)",
@@ -583,7 +582,18 @@ var backimg =[
     "url(https://s3.bmp.ovh/imgs/2022/04/12/886c17a853f36662.jpg)",
     "url(https://s3.bmp.ovh/imgs/2022/04/12/8154eef2fd94da71.jpg)",
     "url(https://images.alphacoders.com/919/919957.jpg)",
-    "url(https://i.postimg.cc/LsK78qTj/d1f58e0a453f0082894f79abbc5d62e6d783ed8a.png)"
+    "url(https://f.pz.al/pzal/2023/09/09/707eb1b07c64f.png)",
+    "url(https://f.pz.al/pzal/2023/09/09/d6ec14ca9dabc.png)",
+    "url(https://f.pz.al/pzal/2023/09/09/5457ae3873fdb.png)",
+    "url(https://f.pz.al/pzal/2023/09/09/477620b67c246.jpg)",
+    "url(https://f.pz.al/pzal/2023/09/09/2f9a6ca3a55ec.jpg)",
+    "url(https://f.pz.al/pzal/2023/09/09/67fc275f5082e.png)",
+    "url(https://f.pz.al/pzal/2023/09/09/89328687e2f2f.png)",
+    "url(https://f.pz.al/pzal/2023/09/09/922071f4c0eea.png)",
+    "url(https://f.pz.al/pzal/2023/09/09/06de66fd864e1.jpg)",
+    "url(https://f.pz.al/pzal/2023/09/09/dc2baedd8cf33.png)",
+    "url(https://f.pz.al/pzal/2023/09/09/9c2eb13e5d09e.jpg)",
+    "url(https://f.pz.al/pzal/2023/09/09/43f628e28503a.jpg)",
 
 
   
