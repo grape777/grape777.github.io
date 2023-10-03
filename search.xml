@@ -49,7 +49,7 @@ EVA的故事终于结束了，从TV到旧剧场再到新剧场版，这次我终
 <p>✒️总结：一个追逐完梦想之后的故事</p>
 <h1 id="🏆2021年度最佳单曲——《flower-of-life》—陽花-capo">🏆2021年度最佳单曲——《flower of life》—陽花/capo</h1>
 
-    <div id="aplayer-PLkEZWYO" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="0031vSgq46g7Ij" data-server="tencent" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="1000px" data-preload="auto" data-theme="#555"></div>   
+    <div id="aplayer-bZjRteFt" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="0031vSgq46g7Ij" data-server="tencent" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="1000px" data-preload="auto" data-theme="#555"></div>   
 <p>轻快的音调，磁性的声音，让人深陷其中的旋律，在那春末的我听到后受到了极大的震撼，是夏天的声音，一句“<em>the key,the earth,the sun a wind</em>”彻底的把我的思绪带入夏天，仿佛站在树下绿荫感受轻拂脸颊的微风，感受风的颜色，在那个时间段听到这首歌的我已经不可抑制的在脑中不断重复他的旋律，如果你问我2021年的夏天是什么时候来的，我会告诉你她随着这首歌而来的</p>
 <p>✒️总结：“<em>but your smile for me any more,let’s be with me together during summer</em>”</p>
 <h1 id="🏆2021年度最佳单机游戏——《死亡搁浅》">🏆2021年度最佳单机游戏——《死亡搁浅》</h1>
@@ -185,7 +185,7 @@ EVA的故事终于结束了，从TV到旧剧场再到新剧场版，这次我终
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=29004400&auto=1&height=66"></iframe>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=29004400&amp;auto=1&amp;height=66&quot;&gt;&lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
 
-    <div id="aplayer-jOCdLpGM" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="004LOOUJ1iTYpq" data-server="tencent" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="1000px" data-preload="auto" data-theme="#555"></div>
+    <div id="aplayer-igoHwYIs" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="004LOOUJ1iTYpq" data-server="tencent" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="1000px" data-preload="auto" data-theme="#555"></div>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% meting &quot;004LOOUJ1iTYpq&quot; &quot;tencent&quot; &quot;song&quot; &quot;theme:#555&quot; &quot;mutex:true&quot; &quot;listmaxheight:1000px&quot; &quot;preload:auto&quot;%&#125;</span><br></pre></td></tr></table></figure>
 <iframe src="//player.bilibili.com/player.html?aid=810858179&bvid=BV1m34y1Y7sY&cid=579822895&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="max-width: 100%" width="100%" height="550"> </iframe>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">style=&quot;max-width: 100%&quot; width=&quot;100%&quot; height=&quot;550&quot;</span><br></pre></td></tr></table></figure>
@@ -212,10 +212,10 @@ EVA的故事终于结束了，从TV到旧剧场再到新剧场版，这次我终
                 <p class="card-status">
                     <span class="play-num">
                         <i class="fa fa-youtube-play"></i>
-                        <span>143.0万</span></span>
+                        <span>143.5万</span></span>
                     <span>
                         <i class="fa fa-list-alt"></i>
-                        <span>3224</span></span></p>
+                        <span>3225</span></span></p>
                 <div class="partition">
                     <label class="card-label">视频</label>
                     <label class="up-label"></label>
@@ -252,33 +252,6 @@ EVA的故事终于结束了，从TV到旧剧场再到新剧场版，这次我终
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>javaEE学习笔记一</title>
-    <url>/2022/02/28/javaEE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B8%80/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2 id="下载JDK，配置">下载JDK，配置</h2>
-<h2 id="下载Tomcat，测试">下载Tomcat，测试</h2>
-<p>双击bin目录下的startup.bat，若双击后一闪而过，修改properties文件里，utf-8改为gbk，浏览器输入localhost：8080测试</p>
-<h2 id="Maven下载安装和配置，">Maven下载安装和配置，</h2>
-<p>配置：控制面板，系统，高级系统配置，环境环境变量，系统变量中新建MAVEN_HOME,变量名位maven根目录，然后修改系统变量中的path的变量值，在后面添加%MAVEN_HOME%\bin;</p>
-<h2 id="Idea下载">Idea下载</h2>
-<h2 id="Idea集成JDK">Idea集成JDK</h2>
-<p><img src="https://s3.bmp.ovh/imgs/2022/02/fa13ee2f6b3b0d8d.jpg" alt></p>
-<h2 id="Maven集成">Maven集成</h2>
-<p><img src="https://s3.bmp.ovh/imgs/2022/02/65af6a628147279c.jpg" alt></p>
-<h2 id="集成tomcat">集成tomcat</h2>
-<p><img src="https://s3.bmp.ovh/imgs/2022/02/5774559a28c3d138.jpg" alt></p>
-<h2 id="创建动态web项目">创建动态web项目</h2>
-<p><img src="https://s3.bmp.ovh/imgs/2022/02/913133aff24fe67b.jpg" alt></p>
-<p><img src="https://s3.bmp.ovh/imgs/2022/02/07a278dd3c761da5.jpg" alt></p>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-        <category>JavaEE</category>
-      </categories>
-      <tags>
-        <tag>学习笔记</tag>
-      </tags>
   </entry>
   <entry>
     <title>java判断语句</title>
@@ -1478,6 +1451,33 @@ EVA的故事终于结束了，从TV到旧剧场再到新剧场版，这次我终
       <tags>
         <tag>学习笔记</tag>
         <tag>继承</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>javaEE学习笔记一</title>
+    <url>/2022/02/28/javaEE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B8%80/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2 id="下载JDK，配置">下载JDK，配置</h2>
+<h2 id="下载Tomcat，测试">下载Tomcat，测试</h2>
+<p>双击bin目录下的startup.bat，若双击后一闪而过，修改properties文件里，utf-8改为gbk，浏览器输入localhost：8080测试</p>
+<h2 id="Maven下载安装和配置，">Maven下载安装和配置，</h2>
+<p>配置：控制面板，系统，高级系统配置，环境环境变量，系统变量中新建MAVEN_HOME,变量名位maven根目录，然后修改系统变量中的path的变量值，在后面添加%MAVEN_HOME%\bin;</p>
+<h2 id="Idea下载">Idea下载</h2>
+<h2 id="Idea集成JDK">Idea集成JDK</h2>
+<p><img src="https://s3.bmp.ovh/imgs/2022/02/fa13ee2f6b3b0d8d.jpg" alt></p>
+<h2 id="Maven集成">Maven集成</h2>
+<p><img src="https://s3.bmp.ovh/imgs/2022/02/65af6a628147279c.jpg" alt></p>
+<h2 id="集成tomcat">集成tomcat</h2>
+<p><img src="https://s3.bmp.ovh/imgs/2022/02/5774559a28c3d138.jpg" alt></p>
+<h2 id="创建动态web项目">创建动态web项目</h2>
+<p><img src="https://s3.bmp.ovh/imgs/2022/02/913133aff24fe67b.jpg" alt></p>
+<p><img src="https://s3.bmp.ovh/imgs/2022/02/07a278dd3c761da5.jpg" alt></p>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+        <category>JavaEE</category>
+      </categories>
+      <tags>
+        <tag>学习笔记</tag>
       </tags>
   </entry>
   <entry>
