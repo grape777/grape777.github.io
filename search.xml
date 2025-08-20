@@ -49,7 +49,7 @@ EVA的故事终于结束了，从TV到旧剧场再到新剧场版，这次我终
 <p>✒️总结：一个追逐完梦想之后的故事</p>
 <h1 id="🏆2021年度最佳单曲——《flower-of-life》—陽花-capo">🏆2021年度最佳单曲——《flower of life》—陽花/capo</h1>
 
-    <div id="aplayer-jxUAThlo" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="0031vSgq46g7Ij" data-server="tencent" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="1000px" data-preload="auto" data-theme="#555"></div>   
+    <div id="aplayer-EtIqCeKc" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="0031vSgq46g7Ij" data-server="tencent" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="1000px" data-preload="auto" data-theme="#555"></div>   
 <p>轻快的音调，磁性的声音，让人深陷其中的旋律，在那春末的我听到后受到了极大的震撼，是夏天的声音，一句“<em>the key,the earth,the sun a wind</em>”彻底的把我的思绪带入夏天，仿佛站在树下绿荫感受轻拂脸颊的微风，感受风的颜色，在那个时间段听到这首歌的我已经不可抑制的在脑中不断重复他的旋律，如果你问我2021年的夏天是什么时候来的，我会告诉你她随着这首歌而来的</p>
 <p>✒️总结：“<em>but your smile for me any more,let’s be with me together during summer</em>”</p>
 <h1 id="🏆2021年度最佳单机游戏——《死亡搁浅》">🏆2021年度最佳单机游戏——《死亡搁浅》</h1>
@@ -185,7 +185,7 @@ EVA的故事终于结束了，从TV到旧剧场再到新剧场版，这次我终
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=29004400&auto=1&height=66"></iframe>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=29004400&amp;auto=1&amp;height=66&quot;&gt;&lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
 
-    <div id="aplayer-rDLWfDae" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="004LOOUJ1iTYpq" data-server="tencent" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="1000px" data-preload="auto" data-theme="#555"></div>
+    <div id="aplayer-qkYoOelI" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="004LOOUJ1iTYpq" data-server="tencent" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="1000px" data-preload="auto" data-theme="#555"></div>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% meting &quot;004LOOUJ1iTYpq&quot; &quot;tencent&quot; &quot;song&quot; &quot;theme:#555&quot; &quot;mutex:true&quot; &quot;listmaxheight:1000px&quot; &quot;preload:auto&quot;%&#125;</span><br></pre></td></tr></table></figure>
 <iframe src="//player.bilibili.com/player.html?aid=810858179&bvid=BV1m34y1Y7sY&cid=579822895&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="max-width: 100%" width="100%" height="550"> </iframe>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">style=&quot;max-width: 100%&quot; width=&quot;100%&quot; height=&quot;550&quot;</span><br></pre></td></tr></table></figure>
@@ -212,10 +212,10 @@ EVA的故事终于结束了，从TV到旧剧场再到新剧场版，这次我终
                 <p class="card-status">
                     <span class="play-num">
                         <i class="fa fa-youtube-play"></i>
-                        <span>352.0万</span></span>
+                        <span>356.8万</span></span>
                     <span>
                         <i class="fa fa-list-alt"></i>
-                        <span>3724</span></span></p>
+                        <span>3737</span></span></p>
                 <div class="partition">
                     <label class="card-label">视频</label>
                     <label class="up-label"></label>
@@ -2363,108 +2363,6 @@ Java中的接口更多的体现在</p>
       </tags>
   </entry>
   <entry>
-    <title>java学习笔记21-异常</title>
-    <url>/2022/08/26/java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B021-%E5%BC%82%E5%B8%B8/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2 id="异常概述">异常概述</h2>
-<p>异常：就是程序出现了不正常的情况</p>
-<p>异常体系</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">graph TD</span><br><span class="line">A[Throwable]</span><br><span class="line">A--&gt;  C(Error)</span><br><span class="line">A--&gt;  D(Exception)</span><br><span class="line">D--&gt;  E(RuntimeException)</span><br><span class="line">D--&gt;  F(非RuntimeException)</span><br></pre></td></tr></table></figure>
-<p>Error：严重问题，不需要处理<br>
-Exception：称为异常类，他表示程序本身可以处理的问题</p>
-<ul>
-<li>RuntimeException：在编译期是不检查的，出现问题后，需要我们回来修改代码</li>
-<li>非RuntimeException：编译期就必须处理的，否侧程序不能通过编译，就不能正常运行了</li>
-</ul>
-<h2 id="JVM的默认处理方案">JVM的默认处理方案</h2>
-<p>如果程序出现了问题，我们没有做任何处理，最终JVM会做默认的处理</p>
-<ul>
-<li>把异常的名称，异常原因及异常出现的位置等信息输出在了控制台</li>
-<li>程序停止执行</li>
-</ul>
-<h2 id="异常处理之-try…catch…">异常处理之 try…catch…</h2>
-<ul>
-<li>格式：</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">try</span> &#123;</span><br><span class="line">    可能出现异常的代码;</span><br><span class="line">&#125; <span class="keyword">catch</span> (异常类名 变量名) &#123;</span><br><span class="line">    异常的处理代码;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>执行流程：</p>
-<p>程序从try里面的代码开始执行<br>
-出现异常，会自动生成一个异常类对象，该异常对象将被提交给Java运行时系统<br>
-当Java运行时系统接收到异常对象时，回到catch中去找匹配的异常类，找到后进行异常的处理<br>
-执行完毕之后，程序还可以继续往下执行</p>
-<h2 id="Throwable的成员方法">Throwable的成员方法</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align:left"><center>方法名</center></th>
-<th style="text-align:left"><center>说明</center></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">public String getMessage()</td>
-<td style="text-align:left">返回此throwable的详细消息字符串</td>
-</tr>
-<tr>
-<td style="text-align:left">public String toString()</td>
-<td style="text-align:left">返回此可抛出的简短描述</td>
-</tr>
-<tr>
-<td style="text-align:left">public void printStackTrace()</td>
-<td style="text-align:left">把异常的错误信息输出在控制台</td>
-</tr>
-</tbody>
-</table>
-<h2 id="编译时异常和运行时异常的区别">编译时异常和运行时异常的区别</h2>
-<p>Java中的异常被分为两大类：<strong>编译时异常</strong>和<strong>运行时异常</strong>，也被称为<strong>受检异常</strong>和<strong>非受检异常</strong><br>
-所有的RuntimeException类及其子类被称为运行时异常，其他的异常都是编译时异常</p>
-<ul>
-<li>编译时异常：必须显示处理，否则程序就会发生错误，无法通过编译</li>
-<li>运行时异常：无需显示处理，也可以和编译时一样一样处理</li>
-</ul>
-<h2 id="异常处理至throws">异常处理至throws</h2>
-<p>虽然我们通过try…catch…可以对异常进行处理，但是并不是所有的情况我们都有权限进行异常的处理<br>
-也就是说，有些时候可能出现的异常是我们处理不了的，这个时候该怎么办呢？</p>
-<p>格式：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">throws</span> 异常名;</span><br></pre></td></tr></table></figure>
-<p>注意：这个格式是跟在方法的括号后面的</p>
-<ul>
-<li><strong>编译时异常必须要进行处理</strong>，两种处理方案：try…catch…或者throws，如果采用throws这种方案，将来谁调用谁处理</li>
-<li><strong>运行时异常可以不处理</strong>，出现问题后，需要我们来回修改代码</li>
-</ul>
-<h2 id="自定义异常">自定义异常</h2>
-<p>格式：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> 异常类名 <span class="keyword">extends</span> <span class="title">Exception</span> </span>&#123;</span><br><span class="line">    无参构造</span><br><span class="line">    带参构造</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>范例：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ScoreException</span> <span class="keyword">extends</span> <span class="title">Exception</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">ScoreException</span> <span class="params">()</span> </span>&#123;&#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">ScoreException</span> <span class="params">(String message)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>(message);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<details class="folding-tag"><summary> 代码 </summary>
-              <div class="content">
-              <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">package</span> unit_21Exception;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ScoreException</span> <span class="keyword">extends</span> <span class="title">Exception</span></span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">ScoreException</span><span class="params">()</span></span>&#123;&#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">ScoreException</span><span class="params">(String message)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>(message);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">package</span> unit_21Exception;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Teacher</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">checkScore</span><span class="params">(<span class="keyword">int</span> score)</span> <span class="keyword">throws</span> ScoreException </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (score&lt;<span class="number">0</span> || score&gt;<span class="number">100</span>) &#123;</span><br><span class="line"><span class="comment">//            throw new ScoreException();</span></span><br><span class="line">            <span class="keyword">throw</span> <span class="keyword">new</span> ScoreException(<span class="string">&quot;你给的分数有误，分数应该在1到100之间&quot;</span>);</span><br><span class="line">        &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;分数正常&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">package</span> unit_21Exception;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TeacherTest</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Scanner sc = <span class="keyword">new</span> Scanner(System.in);</span><br><span class="line">        System.out.println(<span class="string">&quot;请输入分数&quot;</span>);</span><br><span class="line">        <span class="keyword">int</span> score = sc.nextInt();</span><br><span class="line"></span><br><span class="line">        Teacher t = <span class="keyword">new</span> Teacher();</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            t.checkScore(score);</span><br><span class="line">        &#125; <span class="keyword">catch</span> (ScoreException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-              </div>
-            </details>
-<h2 id="throws和throw的区别">throws和throw的区别</h2>
-<p>throws</p>
-<ul>
-<li>用在方法声明后面，跟的是也常类名</li>
-<li>表示抛出异常，由该方法调用者来处理</li>
-<li>表示出现异常的一种可能性，并不一定会发生这些异常</li>
-</ul>
-<p>throw</p>
-<ul>
-<li>用在方法体内，跟的是异常对象名</li>
-<li>表示抛出异常，由方法体内的语句处理</li>
-<li>执行throw一定抛出了某种异常</li>
-</ul>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-        <category>java</category>
-      </categories>
-      <tags>
-        <tag>学习笔记</tag>
-        <tag>异常</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>java学习笔记20-常用API</title>
     <url>/2022/08/03/java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B020-%E5%B8%B8%E7%94%A8API/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2 id="Object类概述">Object类概述</h2>
@@ -2755,6 +2653,108 @@ Exception：称为异常类，他表示程序本身可以处理的问题</p>
       <tags>
         <tag>学习笔记</tag>
         <tag>API</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>java学习笔记21-异常</title>
+    <url>/2022/08/26/java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B021-%E5%BC%82%E5%B8%B8/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2 id="异常概述">异常概述</h2>
+<p>异常：就是程序出现了不正常的情况</p>
+<p>异常体系</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">graph TD</span><br><span class="line">A[Throwable]</span><br><span class="line">A--&gt;  C(Error)</span><br><span class="line">A--&gt;  D(Exception)</span><br><span class="line">D--&gt;  E(RuntimeException)</span><br><span class="line">D--&gt;  F(非RuntimeException)</span><br></pre></td></tr></table></figure>
+<p>Error：严重问题，不需要处理<br>
+Exception：称为异常类，他表示程序本身可以处理的问题</p>
+<ul>
+<li>RuntimeException：在编译期是不检查的，出现问题后，需要我们回来修改代码</li>
+<li>非RuntimeException：编译期就必须处理的，否侧程序不能通过编译，就不能正常运行了</li>
+</ul>
+<h2 id="JVM的默认处理方案">JVM的默认处理方案</h2>
+<p>如果程序出现了问题，我们没有做任何处理，最终JVM会做默认的处理</p>
+<ul>
+<li>把异常的名称，异常原因及异常出现的位置等信息输出在了控制台</li>
+<li>程序停止执行</li>
+</ul>
+<h2 id="异常处理之-try…catch…">异常处理之 try…catch…</h2>
+<ul>
+<li>格式：</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">try</span> &#123;</span><br><span class="line">    可能出现异常的代码;</span><br><span class="line">&#125; <span class="keyword">catch</span> (异常类名 变量名) &#123;</span><br><span class="line">    异常的处理代码;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>执行流程：</p>
+<p>程序从try里面的代码开始执行<br>
+出现异常，会自动生成一个异常类对象，该异常对象将被提交给Java运行时系统<br>
+当Java运行时系统接收到异常对象时，回到catch中去找匹配的异常类，找到后进行异常的处理<br>
+执行完毕之后，程序还可以继续往下执行</p>
+<h2 id="Throwable的成员方法">Throwable的成员方法</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><center>方法名</center></th>
+<th style="text-align:left"><center>说明</center></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">public String getMessage()</td>
+<td style="text-align:left">返回此throwable的详细消息字符串</td>
+</tr>
+<tr>
+<td style="text-align:left">public String toString()</td>
+<td style="text-align:left">返回此可抛出的简短描述</td>
+</tr>
+<tr>
+<td style="text-align:left">public void printStackTrace()</td>
+<td style="text-align:left">把异常的错误信息输出在控制台</td>
+</tr>
+</tbody>
+</table>
+<h2 id="编译时异常和运行时异常的区别">编译时异常和运行时异常的区别</h2>
+<p>Java中的异常被分为两大类：<strong>编译时异常</strong>和<strong>运行时异常</strong>，也被称为<strong>受检异常</strong>和<strong>非受检异常</strong><br>
+所有的RuntimeException类及其子类被称为运行时异常，其他的异常都是编译时异常</p>
+<ul>
+<li>编译时异常：必须显示处理，否则程序就会发生错误，无法通过编译</li>
+<li>运行时异常：无需显示处理，也可以和编译时一样一样处理</li>
+</ul>
+<h2 id="异常处理至throws">异常处理至throws</h2>
+<p>虽然我们通过try…catch…可以对异常进行处理，但是并不是所有的情况我们都有权限进行异常的处理<br>
+也就是说，有些时候可能出现的异常是我们处理不了的，这个时候该怎么办呢？</p>
+<p>格式：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">throws</span> 异常名;</span><br></pre></td></tr></table></figure>
+<p>注意：这个格式是跟在方法的括号后面的</p>
+<ul>
+<li><strong>编译时异常必须要进行处理</strong>，两种处理方案：try…catch…或者throws，如果采用throws这种方案，将来谁调用谁处理</li>
+<li><strong>运行时异常可以不处理</strong>，出现问题后，需要我们来回修改代码</li>
+</ul>
+<h2 id="自定义异常">自定义异常</h2>
+<p>格式：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> 异常类名 <span class="keyword">extends</span> <span class="title">Exception</span> </span>&#123;</span><br><span class="line">    无参构造</span><br><span class="line">    带参构造</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>范例：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ScoreException</span> <span class="keyword">extends</span> <span class="title">Exception</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">ScoreException</span> <span class="params">()</span> </span>&#123;&#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">ScoreException</span> <span class="params">(String message)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>(message);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<details class="folding-tag"><summary> 代码 </summary>
+              <div class="content">
+              <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">package</span> unit_21Exception;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ScoreException</span> <span class="keyword">extends</span> <span class="title">Exception</span></span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">ScoreException</span><span class="params">()</span></span>&#123;&#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">ScoreException</span><span class="params">(String message)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>(message);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">package</span> unit_21Exception;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Teacher</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">checkScore</span><span class="params">(<span class="keyword">int</span> score)</span> <span class="keyword">throws</span> ScoreException </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (score&lt;<span class="number">0</span> || score&gt;<span class="number">100</span>) &#123;</span><br><span class="line"><span class="comment">//            throw new ScoreException();</span></span><br><span class="line">            <span class="keyword">throw</span> <span class="keyword">new</span> ScoreException(<span class="string">&quot;你给的分数有误，分数应该在1到100之间&quot;</span>);</span><br><span class="line">        &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;分数正常&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">package</span> unit_21Exception;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TeacherTest</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Scanner sc = <span class="keyword">new</span> Scanner(System.in);</span><br><span class="line">        System.out.println(<span class="string">&quot;请输入分数&quot;</span>);</span><br><span class="line">        <span class="keyword">int</span> score = sc.nextInt();</span><br><span class="line"></span><br><span class="line">        Teacher t = <span class="keyword">new</span> Teacher();</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            t.checkScore(score);</span><br><span class="line">        &#125; <span class="keyword">catch</span> (ScoreException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+              </div>
+            </details>
+<h2 id="throws和throw的区别">throws和throw的区别</h2>
+<p>throws</p>
+<ul>
+<li>用在方法声明后面，跟的是也常类名</li>
+<li>表示抛出异常，由该方法调用者来处理</li>
+<li>表示出现异常的一种可能性，并不一定会发生这些异常</li>
+</ul>
+<p>throw</p>
+<ul>
+<li>用在方法体内，跟的是异常对象名</li>
+<li>表示抛出异常，由方法体内的语句处理</li>
+<li>执行throw一定抛出了某种异常</li>
+</ul>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>学习笔记</tag>
+        <tag>异常</tag>
       </tags>
   </entry>
   <entry>
@@ -3697,29 +3697,6 @@ int[ ] arr = {1,2,3};</p>
       </tags>
   </entry>
   <entry>
-    <title>《ever17》——i need you!</title>
-    <url>/2022/02/23/%E3%80%8Aever17%E3%80%8B%E2%80%94%E2%80%94i-need-you/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>开始会觉得不明所以，觉得没有亮点，觉得一切都在掌握之中，但是这是一个非常非常慢热的avg，不玩到最后一刻是无法体会它带给你的震撼，已经好久好久没有这种体验了，无论是游戏，动画，漫画等等，带给我如此震撼的作品已经很久很久没有遇到了，真是不错，以我个人非常肤浅和主观的视点，这真是一部能给人惊喜并抓住人性柔弱的作品，一部注定能深刻烙印在玩家心中的作品，你猜不中的，你躲不开的，这个陷阱，你会乖乖的落入其中，然后被漫过头顶。<br>
-<img src="/.io//1.jpg" alt></p>
-<p>完整的设定，紧密的逻辑，巧妙地诡计，深入的铺垫都为最后的结局创造了无与伦比的感官体验，发售于2002年《ever17》如今已经过去20年了，用现在的视角来看依旧毫无违和的感觉，同众多avg一样，游戏中我们要经历很多次结局才能达到真正的结局，也是因为多次的结局才使这个游戏更加完整。</p>
-<p><img src="/.io//3.jpg" alt></p>
-<p>深海之中一个事故一个事件，一个规划十七年的计划，主角是谁，是我们，来自上帝视角的我们，一个一个结局的铺垫在最终一刻爆发，其能量足以使人瞠目结舌，当可可在仓中感谢我们时真是让我再也忍不住了，我的情感在哪一刻爆发了，这一时刻，也是这部作品在我心中封神的一刻，他完美的利用了avg的机制，运用巧妙的诡叙，使文冒险游戏发挥到极致之极致。不愧为20年前的avg巅峰，看似的轮回却是仅仅一条线，被骗了，被题目骗了，被机制骗了，玩家完全被玩弄于股掌之中，极其清晰的逻辑和广而深的铺垫使你很难找到打的漏洞，唯心与唯物之间找到了一个平衡点，谁能想到20年前就已经出现了如此如此厉害的作品，谁能想到20年前，就有人领悟到了avg的究极诡叙，打越钢太郎，真是天才</p>
-<p>唉，凭我浅薄至极的语言实在无法说出他的优秀，也许每个人都有不同的体验与感悟，但只有玩过之后才听明白，才能感受到他的魅力。</p>
-<p>如果你决心要玩，请你无限降低对他的期待。<br>
-<img src="/.io//2.jpg" alt><br>
-最后非常感谢一直催我玩的朋友，后悔死了，应该早点玩的！！！</p>
-]]></content>
-      <categories>
-        <category>杂谈随笔</category>
-        <category>游戏</category>
-      </categories>
-      <tags>
-        <tag>avg</tag>
-        <tag>剧透警告</tag>
-        <tag>神作</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>《FF14：晓月之终途》晚安,绝望与痛苦</title>
     <url>/2022/04/12/%E3%80%8AFF14%EF%BC%9A%E6%99%93%E6%9C%88%E4%B9%8B%E7%BB%88%E9%80%94%E3%80%8B%E6%99%9A%E5%AE%89-%E7%BB%9D%E6%9C%9B%E4%B8%8E%E7%97%9B%E8%8B%A6/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://static.web.sdo.com/jijiamobile/pic/ff14/wallpaper/20220223patch60/ffxiv_6.0patch_01_2560x1440.jpg" alt></p>
@@ -3749,6 +3726,29 @@ int[ ] arr = {1,2,3};</p>
         <tag>晓月之终途</tag>
         <tag>mmorpg</tag>
         <tag>佳作</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《ever17》——i need you!</title>
+    <url>/2022/02/23/%E3%80%8Aever17%E3%80%8B%E2%80%94%E2%80%94i-need-you/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>开始会觉得不明所以，觉得没有亮点，觉得一切都在掌握之中，但是这是一个非常非常慢热的avg，不玩到最后一刻是无法体会它带给你的震撼，已经好久好久没有这种体验了，无论是游戏，动画，漫画等等，带给我如此震撼的作品已经很久很久没有遇到了，真是不错，以我个人非常肤浅和主观的视点，这真是一部能给人惊喜并抓住人性柔弱的作品，一部注定能深刻烙印在玩家心中的作品，你猜不中的，你躲不开的，这个陷阱，你会乖乖的落入其中，然后被漫过头顶。<br>
+<img src="/.io//1.jpg" alt></p>
+<p>完整的设定，紧密的逻辑，巧妙地诡计，深入的铺垫都为最后的结局创造了无与伦比的感官体验，发售于2002年《ever17》如今已经过去20年了，用现在的视角来看依旧毫无违和的感觉，同众多avg一样，游戏中我们要经历很多次结局才能达到真正的结局，也是因为多次的结局才使这个游戏更加完整。</p>
+<p><img src="/.io//3.jpg" alt></p>
+<p>深海之中一个事故一个事件，一个规划十七年的计划，主角是谁，是我们，来自上帝视角的我们，一个一个结局的铺垫在最终一刻爆发，其能量足以使人瞠目结舌，当可可在仓中感谢我们时真是让我再也忍不住了，我的情感在哪一刻爆发了，这一时刻，也是这部作品在我心中封神的一刻，他完美的利用了avg的机制，运用巧妙的诡叙，使文冒险游戏发挥到极致之极致。不愧为20年前的avg巅峰，看似的轮回却是仅仅一条线，被骗了，被题目骗了，被机制骗了，玩家完全被玩弄于股掌之中，极其清晰的逻辑和广而深的铺垫使你很难找到打的漏洞，唯心与唯物之间找到了一个平衡点，谁能想到20年前就已经出现了如此如此厉害的作品，谁能想到20年前，就有人领悟到了avg的究极诡叙，打越钢太郎，真是天才</p>
+<p>唉，凭我浅薄至极的语言实在无法说出他的优秀，也许每个人都有不同的体验与感悟，但只有玩过之后才听明白，才能感受到他的魅力。</p>
+<p>如果你决心要玩，请你无限降低对他的期待。<br>
+<img src="/.io//2.jpg" alt><br>
+最后非常感谢一直催我玩的朋友，后悔死了，应该早点玩的！！！</p>
+]]></content>
+      <categories>
+        <category>杂谈随笔</category>
+        <category>游戏</category>
+      </categories>
+      <tags>
+        <tag>avg</tag>
+        <tag>剧透警告</tag>
+        <tag>神作</tag>
       </tags>
   </entry>
   <entry>
@@ -3828,7 +3828,7 @@ int[ ] arr = {1,2,3};</p>
                 <p class="card-status">
                     <span class="play-num">
                         <i class="fa fa-youtube-play"></i>
-                        <span>114.5万</span></span>
+                        <span>114.6万</span></span>
                     <span>
                         <i class="fa fa-list-alt"></i>
                         <span>3452</span></span></p>
